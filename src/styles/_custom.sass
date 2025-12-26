@@ -2,14 +2,15 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 50%
+    right: 81%
+    animation-delay: 1s;
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 65%
+    right: 8%
+    animation-delay: 2s;
 
 @keyframes float1
   0%
@@ -17,11 +18,284 @@
   100%
     transform: translateY(0px)
   
+// Modulo versión escritorio/movil
+@media (min-width:1400px)
+  .movil2
+    display: inline
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none
+  
 .banner-principal
   .container.tarjeta
     background-image: url("../assets/curso/portada/fondo-banner-principal.png")
     background-size: cover
     background-position: center
+    @media (max-width: $bp-max-md)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-md.png")
+    @media (max-width: $bp-max-xs)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png")
+
+.bg1, .tarjeta--tabla1
+  background-color: #DAE4E3
   
-.txt--green
-  color: #39A900 !important
+.tarjeta-avatar > img
+  width: 100px
+
+.boton *, .boton--sm *
+  color: #12263F !important
+
+.boton:active *, .boton--sm:active *, .boton:focus *, .boton--sm:focus *, .boton:hover *, .boton--sm:hover *
+  color: #12263F !important
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/fondo-paginas.png") !important
+
+//////////Background_Color///////////
+.bg-color
+  &-1
+    background-image: url('../assets/curso/temas/fondo-tarjeta.png')
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+    border-radius: 20px
+  &-2
+    background-image: url('../assets/curso/temas/tema1/fondo-tabs-c.png')
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+  &-3
+    background-color: #B2C9C4
+  &-4
+    background-color: #F2F4ED
+  &-5
+    background-image: url('../assets/curso/temas/fondo-tarjeta-responsive.png')
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+    border-radius: 20px
+  &-6
+    background-color: #D8DEC8
+  &-7
+    background-color: #FFE5D8
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+    text-align: center
+
+.bg
+  &-c1 
+    background-color: #FFF5E4
+    background-repeat: repeat-x
+    background-position: center center // centro horizontal y vertical
+    height: 40px
+    display: flex
+    align-items: center
+    justify-content: center 
+
+.titulo2
+  background-color:#FFEBC9
+  border-bottom: #004E3D 4px solid
+  color: black
+  padding: 2px 10px
+  display: inline-flex
+  align-items: center
+  justify-content: flex-start
+  height: 44px
+
+.titulo2 h5
+  margin-right: 23px
+
+.tarjeta-avatar-b__img
+  min-width: 10%
+  max-width: 10%
+  position: relative
+  display: flex
+  align-items: center
+
+.tarjeta-avatar-b__img2
+  min-width: 20%
+  max-width: 20%
+  position: relative
+  display: flex
+  align-items: center
+
+.tarjeta.color1
+  background-color: #B2C9C4
+  margin-left: -5%
+  padding-left: 5%
+
+.tarjeta--boton.color-secundario:active *, .tarjeta--boton.color-secundario:focus *, .tarjeta--boton.color-secundario:hover *
+  color: #fff !important
+
+.tabs-c__tab, .tabs-a__tab, .tarjeta--gris2
+  background-color: #FFE5D8
+
+.tabs-c.color-acento-botones .tabs-c__tab--active
+  background-color: $white
+
+.tabs-c__header
+  margin-bottom: 0
+
+.tabs-c.color-acento-botones .tabs-c__tab--active
+  font-weight: 700
+
+.tarjeta--boton.color-secundario:active *, .tarjeta--boton.color-secundario:focus *, .tarjeta--boton.color-secundario:hover *
+  color: #000 !important
+
+.tarjeta-avatar > img
+  width: 100px
+  top: 40px !important
+
+.lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li, .lista-ul li i
+  display: flex
+
+i.fas.fa-horse-head
+  color: #F3BC5B
+
+.tarjeta--BG01
+  background-image: url("../assets/curso/temas/tema1/fondo-tarjeta.svg")
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+
+.fondoh3
+  background-color: #F3BC5B
+  h4
+    color:black !important
+
+.fondoh4
+  background-color: #FFF5E4
+  h5
+    color:black !important
+
+.tarjeta--BG04
+  background-color: #FFE5D8
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  text-align: center
+
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+      background-color: #FFE5D8
+
+.crd_hover_txt--body
+  position: absolute
+  bottom: 0    
+  transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+  transform: translateY(calc( 100% - 3.85rem ))
+  
+@media (min-width:1200px) and (max-width:1400px)  
+  .crd_hover_txt--body
+    p
+      font-size: 0.85em
+
+.ubicar 
+  h4
+    margin-left: 55px
+    margin-top: -35px
+  .acordion__accion.acordion__accion__btn--b.h3.mb-0
+    margin-top: -7px
+
+.tit-tarj
+  margin-top: 2px
+  background-color: #FFE5D8
+  height: 60px
+
+.acordion__accion__btn--a, .acordion__accion__btn--b
+  border: 1px solid #FF955E
+  background-color: #FF955E
+  color: #000 !important
+
+.tarjeta--tabla2, .tarjeta.color-secundario
+  background-color: #F2F4ED
+
+.tarjeta--C01
+  background-color: #D8DEC8
+
+.fondo2-t2
+  background-image: url(../assets/curso/temas/tema1/fondo-2.svg) !important
+  margin-inline: -3rem
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+  @media screen and (max-width: $bp-max-sm)
+    margin-inline: -1.5rem
+
+.fondo3-t3
+  background-image: url(../assets/curso/temas/tema1/fondo-3.png) !important
+  margin-inline: -3rem
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+  @media screen and (max-width: $bp-max-sm)
+    margin-inline: -1.5rem
+
+.BGM01
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.BGM01
+  background: linear-gradient(to bottom, #FFF, #FFF6E8, #FFF)
+
+.BG03.acordion__activo
+  background-color: #FFEEE9
+
+.BG03
+  background-color: #B2C9C4
+
+.acordion.color-secundario .acordion__accion__btn--a, .acordion.color-secundario .acordion__accion__btn--b
+  border: 1px solid #FF955E
+  background-color: #FF955E
+  color: #000 !important
+
+.tarjeta.color-primario
+  background-color: #B2BE91
+  h4, p
+    color: #000 !important
+
+.tarjeta.color-primario2
+  background-color: #004E3D
+  h4, p
+    color: #fff !important
+
+.titulo
+  background-color:#FFF5E4
+  color: black
+  padding: 2px 10px
+  border-radius: 50px
+  display: inline-flex
+  align-items: center
+  justify-content: flex-start
+  
+.titulo h5
+  margin-right: 23px
+
+.titulo img
+  width: 45px
+  height: 45px
+  margin-right: 10px
+  margin-left: -10px
+
+.tarjeta.color-primarios2
+  background-color:#B2C9C4
+  p, h5, b
+    color: #12263F !important
+
+.tarjeta.color-primarios3
+  background-color:#DAE4E3
