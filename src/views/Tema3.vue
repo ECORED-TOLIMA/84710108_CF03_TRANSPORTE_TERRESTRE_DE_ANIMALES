@@ -40,7 +40,7 @@
     
     p.mb-4 Las siguientes condiciones, detectadas por el conductor o tripulante (generalmente durante la #[b inspección cada cuatro horas)], activan el protocolo de contingencia:
 
-    .row.mb-4
+    .row.mb-0
       .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
         .tarjeta.color-primarios2.p-4.h-100
           .row.mb-2
@@ -97,7 +97,7 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-10.tarjeta.color-secundario.p-4(data-aos="fade-right")
           .row.justify-content-center.align-items-center
-            .col-lg-6.order-lg-1.order-2
+            .col-lg-7.order-lg-1.order-2
               ul.lista-ul
                 li
                   i.fas.fa-horse-head
@@ -119,7 +119,7 @@
                   p.mb-0 #[b Técnica de acomodación]
                     br
                     | Asistir y reacomodar a los animales caídos o fatigados para asegurar que tengan el #[b espacio disponible] para levantarse.
-            .col-lg-6.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="zoom-in")
+            .col-lg-4.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="zoom-in")
               figure
                 img.img-fluid(src="@/assets/curso/temas/tema3/img-04.png" alt="Imagen decorativo")
 
@@ -475,26 +475,26 @@
         .col-lg-12.order-lg-1.order-2
           p La SST del personal se rige por los siguientes principios del manual de procedimientos:
         .col-lg-10.order-lg-1.order-2
-          .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+          .titulo-sexto.color-acento-contenido
             h5 Tabla 28.
             i Principios SST
           .tabla-a.color-acento-contenido.mb-4
             table
               thead
                 tr
-                  th(data-aos="fade-down")(style= "background-color: #DAE4E3; width: 16.6%") Principio
-                  th(data-aos="fade-down")(style= "background-color: #DAE4E3; width: 16.6%") Detalle y mitigación del riesgo para el operario
-                  th(data-aos="fade-down")(style= "background-color: #DAE4E3; width: 16.6%") Soporte documental (base)
+                  th(style= "background-color: #DAE4E3; width: 16.6%") Principio
+                  th(style= "background-color: #DAE4E3; width: 16.6%") Detalle y mitigación del riesgo para el operario
+                  th(style= "background-color: #DAE4E3; width: 16.6%") Soporte documental (base)
               tbody
-                tr(data-aos="fade-right")
+                tr
                   td.text-center(style= "background-color: #FFFF") #[b Capacitación obligatoria]
                   td(style= "background-color: #FFFF") Todo operador (conductor/tripulante) debe realizar y aprobar el #[b curso de capacitación en bienestar animal.] Este curso incluye las técnicas de manejo que minimizan los riesgos de golpes o accidentes con los animales.
                   td(style= "background-color: #FFFF") #[b "Toda persona involucrada] en el proceso... deberá #[b realizar un curso de capacitación en bienestar animal..."]. Manual de procedimiento (Núm. 6).
-                tr(data-aos="fade-right")
+                tr
                   td.text-center(style= "background-color: #FFFF") #[b Manejo de riesgo biológico]
                   td(style= "background-color: #FFFF") La #[b limpieza y desinfección] periódica del vehículo reduce la exposición del personal a agentes infecciosos (patógenos) presentes en las excretas, lo cual es un requisito de SST.
                   td(style= "background-color: #FFFF") El vehículo debe permitir su #[b "lavado y desinfección"]. Resolución 20223040006915 (Núm. 2.2.c.i).
-                tr(data-aos="fade-right")
+                tr
                   td.text-center(style= "background-color: #FFFF") #[b Manejo de riesgo físico]
                   td(style= "background-color: #FFFF") El cumplimiento de la técnica de #[b manejo humanitario] (sin hostigamiento) reduce la probabilidad de que el animal se defienda mediante patadas o mordeduras al sentirse amenazado.
                   td(style= "background-color: #FFFF") El manejo debe ser con #[b "calma, sin ruidos ni hostigamiento"]. Manual de procedimiento (Núm. 4).
@@ -503,22 +503,22 @@
         .col-lg-12.order-lg-1.order-2
           p Los requisitos técnicos del vehículo son procedimientos de seguridad que protegen tanto al animal como al operario durante el cargue y el manejo de la carga. Estos, deben tener en cuenta:
         .col-lg-10.order-lg-1.order-2
-          .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+          .titulo-sexto.color-acento-contenido
             h5 Tabla 29.
             i Requisitos del vehículo
           .tabla-a.color-acento-contenido.mb-4
             table
               thead
                 tr
-                  th(data-aos="fade-down")(style= "background-color: #DAE4E3; width: 16.6%") Procedimiento de seguridad
-                  th(data-aos="fade-down")(style= "background-color: #DAE4E3; width: 16.6%") Detalle y mitigación de riesgos (SST)
-                  th(data-aos="fade-down")(style= "background-color: #DAE4E3; width: 16.6%") Soporte documental (texto exacto)
+                  th(style= "background-color: #DAE4E3; width: 16.6%") Procedimiento de seguridad
+                  th(style= "background-color: #DAE4E3; width: 16.6%") Detalle y mitigación de riesgos (SST)
+                  th(style= "background-color: #DAE4E3; width: 16.6%") Soporte documental (texto exacto)
               tbody
-                tr(data-aos="fade-right")
+                tr
                   td.text-center(style= "background-color: #FFFF") #[b Riesgo de caídas y sobreesfuerzo]
                   td(style= "background-color: #FFFF") #[b Rampas seguras:] uso de rampas con #[b pisos antideslizantes] y una #[b inclinación máxima de 20 grados.] Esto reduce el riesgo de caídas y lesiones lumbares para el operario al guiar la carga.
                   td(style= "background-color: #FFFF") "...con #[b pisos de superficies antideslizante...] y con #[b máximo 20 grados de inclinación..."]. Manual de procedimiento (Núm. 4.a).
-                tr(data-aos="fade-right")
+                tr
                   td.text-center(style= "background-color: #FFFF") #[b Riesgo de lesiones por fauna]
                   td(style= "background-color: #FFFF") #[b Paredes lisas:] las superficies internas deben ser lisas y sin salientes. Esto minimiza el riesgo de que el operario se lesione al intervenir o #[b auxiliar a un animal] dentro del corral.
                   td(style= "background-color: #FFFF") #[b "Serán lisas, seguras, sin salientes, ni bordes puntiagudos..."]. Resolución 20223040006915 (Núm. 2.2.d.i).
@@ -527,22 +527,22 @@
         .col-lg-12.order-lg-1.order-2
           p El #[b plan de contingencia] exige que el operario aplique técnicas de manejo de novedades que inherentemente son de alto riesgo para su seguridad física.
         .col-lg-10.order-lg-1.order-2
-          .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+          .titulo-sexto.color-acento-contenido
             h5 Tabla 30.
             i Técnicas de manejo del operario
           .tabla-a.color-acento-contenido.mb-4
             table
               thead
                 tr
-                  th(data-aos="fade-down")(style= "background-color: #DAE4E3; width: 16.6%") Técnica de manejo de emergencias
-                  th(data-aos="fade-down")(style= "background-color: #DAE4E3; width: 16.6%") IRiesgo laboral asociado
-                  th(data-aos="fade-down")(style= "background-color: #DAE4E3; width: 16.6%") Soporte documental (base)
+                  th(style= "background-color: #DAE4E3; width: 16.6%") Técnica de manejo de emergencias
+                  th(style= "background-color: #DAE4E3; width: 16.6%") IRiesgo laboral asociado
+                  th(style= "background-color: #DAE4E3; width: 16.6%") Soporte documental (base)
               tbody
-                tr(data-aos="fade-right")
+                tr
                   td.text-center(style= "background-color: #FFFF") #[b Ayuda inmediata]
                   td(style= "background-color: #FFFF") El operador debe entrar al área de la carga para prestar #[b ayuda o atención inmediata al animal] (caído, atrapado). Esto lo expone directamente a patadas, mordeduras y aplastamiento por parte de otros animales.
                   td(style= "background-color: #FFFF") El plan exige #[b ayuda o atención inmediata al animal]. ABC Manual de Procedimientos para el Transporte, Manejo y Movilización de Animales en Pie (pág. 6).
-                tr(data-aos="fade-right")
+                tr
                   td.text-center(style= "background-color: #FFFF") #[b Disposición de cadáveres]
                   td(style= "background-color: #FFFF") El operador participa en la #[b disposición de animales muertos], lo cual lo expone a #[b riesgos biológicos y al riesgo de sobreesfuerzo] (lesiones lumbares) al manipular el cadáver.
                   td(style= "background-color: #FFFF") El plan incluye la #[b disposición de los animales muertos.] ABC Manual de Procedimientos para el Transporte, Manejo y Movilización de Animales en Pie (pág. 6).

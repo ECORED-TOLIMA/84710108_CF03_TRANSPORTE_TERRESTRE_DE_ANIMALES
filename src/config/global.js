@@ -182,7 +182,7 @@ export default {
       tema:
         '1. Proceso de cargue y descargue de animales en pie: tipos de procedimiento',
       referencia:
-        'Ministerio de Transporte - Instituto Colombiano Agropecuario (ICA). (2022, 11 de febrero). Resolución 20223040006915 de 2022. Por la cual se adopta el Manual de Procedimientos para el Transporte, manejo y movilización de Animales en Pie y se dictan otras disposiciones.',
+        '<em>Ministerio de Transporte - Instituto Colombiano Agropecuario (ICA). (2022, 11 de febrero). Resolución 20223040006915 de 2022. Por la cual se adopta el Manual de Procedimientos para el Transporte, manejo y movilización de Animales en Pie y se dictan otras disposiciones.</em>',
       tipo: 'Resolución',
       link:
         'https://www.ica.gov.co/getattachment/ab7e54ab-28a0-4c58-9a86-8ecc49fea4a9/2022R3040006915.aspxLink_complementario',
@@ -200,7 +200,7 @@ export default {
       tema:
         '2. Gestión ambiental: concepto, tipos de residuos y técnicas de disposición',
       referencia:
-        'Ministerio de Ambiente y Desarrollo Sostenible de Colombia. (2015, 26 de mayo). Decreto 1076 de 2015. Por medio del cual se expide el Decreto Único Reglamentario del Sector Ambiente y Desarrollo Sostenible.',
+        '<em>Ministerio de Ambiente y Desarrollo Sostenible de Colombia. (2015, 26 de mayo). Decreto 1076 de 2015. Por medio del cual se expide el Decreto Único Reglamentario del Sector Ambiente y Desarrollo Sostenible.</em>',
       tipo: 'Decreto',
       link:
         'https://www.minambiente.gov.co/wp-content/uploads/2021/06/Decreto-1076-de-2015.pdf ',
@@ -208,7 +208,7 @@ export default {
     {
       tema: '3.3 Procedimiento de Seguridad y Salud en el Trabajo (SST)',
       referencia:
-        'Ministerio del Trabajo. (2015, 26 de mayo). Decreto 1072 de 2015. Por medio del cual se expide el Decreto Único Reglamentario del Sector Trabajo.',
+        '<em>Ministerio del Trabajo. (2015, 26 de mayo). Decreto 1072 de 2015. Por medio del cual se expide el Decreto Único Reglamentario del Sector Trabajo.</em>',
       tipo: 'Decreto',
       link:
         'https://www.mintrabajo.gov.co/documents/20147/0/DUR+SECTOR+TRABAJO+-+ACTUALIZACI%C3%93N+SEPTIEMBRE+2025.pdf/f7fb4e83-45d6-f65a-9b8b-25a8d3051338?t=1759317135496',
@@ -264,36 +264,35 @@ export default {
   referencias: [
     {
       referencia:
-        'Instituto Colombiano Agropecuario. (s.f.). <em>Bienestar animal.</em> ICA.s',
-      link: 'Link_referencias',
+        'Instituto Colombiano Agropecuario. (s.f.). <em>Bienestar animal.</em> ICA.',
     },
     {
       referencia:
-        'Ministerio de Ambiente y Desarrollo Sostenible. (2015, 26 de mayo). Decreto 1076 de 2015. Por medio del cual se expide el Decreto Único Reglamentario del Sector Ambiente y Desarrollo Sostenible.',
+        'Ministerio de Ambiente y Desarrollo Sostenible. (2015, 26 de mayo). <em>Decreto 1076 de 2015. Por medio del cual se expide el Decreto Único Reglamentario del Sector Ambiente y Desarrollo Sostenible.</em>',
       link:
         'https://www.minambiente.gov.co/wp-content/uploads/2021/06/Decreto-1076-de-2015.pdf',
     },
     {
       referencia:
-        'Ministerio de Ambiente y Desarrollo Sostenible. (2016, 6 de enero). Ley 1774 de 2016. Por medio de la cual se modifica el Código Civil, la Ley 84 de 1989, el Código Penal, el Código de Procedimiento Penal y se dictan otras disposiciones.',
+        'Ministerio de Ambiente y Desarrollo Sostenible. (2016, 6 de enero). <em>Ley 1774 de 2016. Por medio de la cual se modifica el Código Civil, la Ley 84 de 1989, el Código Penal, el Código de Procedimiento Penal y se dictan otras disposiciones.</em>',
       link:
         'https://www.minambiente.gov.co/wp-content/uploads/2021/06/ley-1774-2016.pdf ',
     },
     {
       referencia:
-        'Ministerio de Salud y Protección Social. (2012, 1 de julio). Ley 1562 de 2012. Por la cual se modifica el Sistema de Riesgos Laborales y se dictan otras disposiciones en materia de Salud Ocupacional.',
+        'Ministerio de Salud y Protección Social. (2012, 1 de julio). <em>Ley 1562 de 2012. Por la cual se modifica el Sistema de Riesgos Laborales y se dictan otras disposiciones en materia de Salud Ocupacional.</em>',
       link:
         'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/Ley-1562-de-2012.pdf ',
     },
     {
       referencia:
-        'Ministerio del Trabajo. (2015, 26 de mayo). Decreto 1072 de 2015. Por medio del cual se expide el Decreto Único Reglamentario del Sector Trabajo.',
+        'Ministerio del Trabajo. (2015, 26 de mayo). <em>Decreto 1072 de 2015. Por medio del cual se expide el Decreto Único Reglamentario del Sector Trabajo.</em>',
       link:
         'https://www.mintrabajo.gov.co/documents/20147/0/DUR+SECTOR+TRABAJO+-+ACTUALIZACI%C3%93N+SEPTIEMBRE+2025.pdf/f7fb4e83-45d6-f65a-9b8b-25a8d3051338?t=1759317135496',
     },
     {
       referencia:
-        'Ministerio de Transporte - Instituto Colombiano Agropecuario (ICA). (2022, 11 de febrero). Resolución 20223040006915 de 2022. Por la cual se adopta el Manual de Procedimientos para el Transporte, manejo y movilización de Animales en Pie y se dictan otras disposiciones.',
+        'Ministerio de Transporte - Instituto Colombiano Agropecuario (ICA). (2022, 11 de febrero). <em>Resolución 20223040006915 de 2022. Por la cual se adopta el Manual de Procedimientos para el Transporte, manejo y movilización de Animales en Pie y se dictan otras disposiciones.</em>',
       link:
         'https://www.ica.gov.co/getattachment/ab7e54ab-28a0-4c58-9a86-8ecc49fea4a9/2022R3040006915.aspx ',
     },

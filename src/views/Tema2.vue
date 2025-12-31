@@ -65,7 +65,7 @@
               ul
                 li(data-aos="fade-right") 
                   i.lista-ul__vineta
-                  span #[b Composición del residuo: Excretas (heces y orina)]. Son el residuo más abundante, con alto riesgo de contener patógenos (riesgo biológico) y de contaminar el suelo y el agua (riesgo ambiental).
+                  span #[b Composición del residuo: excretas (heces y orina)]. Son el residuo más abundante, con alto riesgo de contener patógenos (riesgo biológico) y de contaminar el suelo y el agua (riesgo ambiental).
                 li(data-aos="fade-right") 
                   i.lista-ul__vineta
                   span #[b Técnica de gestión ambiental (asociada): Contención y estanqueidad] del vehículo.
@@ -79,7 +79,7 @@
               ul
                 li(data-aos="fade-right") 
                   i.lista-ul__vineta
-                  span #[b Composición del residuo: Animales muertos] (por muerte natural, estrés térmico o sacrificio humanitario).
+                  span #[b Composición del residuo: animales muertos] (por muerte natural, estrés térmico o sacrificio humanitario).
                 li(data-aos="fade-right") 
                   i.lista-ul__vineta
                   span #[b Técnica de gestión ambiental (asociada):] Disposición sanitaria (plan de contingencia).

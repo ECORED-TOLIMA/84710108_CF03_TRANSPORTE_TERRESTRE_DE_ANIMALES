@@ -17,9 +17,11 @@
 
         .row.bg-color-1.justify-content-center.align-items-center.p-4
           .col-lg-10
-            figure
+            figure.desktop
               img(src='@/assets/curso/temas/tema1/figura-1.png', alt='Figura 1 que detalla el proceso de cargue y descargue de los animales en pie. Destacando que el procedimiento de cargue se realiza por medio de una plataforma hidráulica y una rampa fija; mientras que el descargue se hace por manejo individual en una rampa móvil.', style="width: 1043px").m-auto
-    
+            figure.movil
+              img(src='@/assets/curso/temas/tema1/figura-2.png', alt='Figura 1 que detalla el proceso de cargue y descargue de los animales en pie. Destacando que el procedimiento de cargue se realiza por medio de una plataforma hidráulica y una rampa fija; mientras que el descargue se hace por manejo individual en una rampa móvil.', style="width: 1043px").m-auto
+
     .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-lg-10.col-12
         p El cargue y descargue son las etapas más críticas del transporte, donde ocurren la mayoría de las lesiones y el estrés, afectando directamente el bienestar animal y la inocuidad. El manual de procedimientos establece tipos de procedimientos (técnicas operativas) que deben aplicarse rigurosamente, enfocados en el manejo humanitario y la seguridad de la infraestructura.
@@ -61,7 +63,7 @@
     .titulo2.mb-4(data-aos="fade-left")
       h5.mb-0 A. Procedimiento de manejo humanitario (técnica etológica)
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-0
       .col-lg-9.order-lg-1.order-2.mb-lg-0
         .row
           p Este es el procedimiento principal que rige la interacción humano-animal durante el movimiento y se divide en:
@@ -124,7 +126,7 @@
     .titulo2.mb-4(data-aos="fade-left")
       h5.mb-0 C. Procedimiento de organización de la carga (técnica de separación)
 
-    p.mb-4 Este procedimiento se aplica al cargue, donde los animales deben ser ubicados en los corrales siguiendo criterios de clasificación: separar por #[b especie, edad, tamaño, sexo (machos maduros de hembras) y condición física (animales con y sin cuernos).]
+    p.mb-0 Este procedimiento se aplica al cargue, donde los animales deben ser ubicados en los corrales siguiendo criterios de clasificación: separar por #[b especie, edad, tamaño, sexo (machos maduros de hembras) y condición física (animales con y sin cuernos).]
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
@@ -137,7 +139,7 @@
     .titulo2.mb-4(data-aos="fade-left")
       h5.mb-0 D. Procedimiento de seguridad sanitaria (exclusión)
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-0
       .col-2.d-none.d-lg-block
         figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema1/img-06.png', alt='Imagen decorativa')
@@ -236,7 +238,7 @@
 
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
-      h3.mb-0 Implementos de Protección Personal (EPP)
+      h3.mb-0 Elementos de Protección Personal (EPP)
 
     p.mb-4 Aunque el manual no detalla específicamente los tipos de Elementos de Protección Personal (EPP) para los operarios, la necesidad de realizar actividades de cargue, descargue y manejo sanitario exige el uso de implementos generales de seguridad laboral (guantes, botas, overoles sanitarios, etc.). Al respecto, se debe basar en lo siguiente:
 
@@ -407,7 +409,7 @@
       h5.mb-0 A. Requisito estructural (implemento)
 
     p La técnica de separación exige que el vehículo cuente con las herramientas físicas necesarias.
-    p.mb-4 #[b Implemento:] divisiones o barreras fuertes.
+    p.mb-0 #[b Implemento:] divisiones o barreras fuertes.
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
@@ -521,7 +523,7 @@
       h5.mb-0 A. Implemento estructural
     
     p El vehículo debe ser adecuado para aplicar la técnica de separación.
-    p.mb-4 Implemento: divisiones o barreras fuertes.
+    p.mb-0 Implemento: divisiones o barreras fuertes.
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
@@ -571,12 +573,12 @@
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.5 Métodos de aseguramiento
 
-    .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-4(style="background-color:#A8B8FF")
+    .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-4(style="background-color:#004E3D")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-16.png')})`}" data-aos="fade-left"
       )
       .bloque-texto-g__texto.p-4(data-aos="fade-right")
-        p Los #[b métodos de aseguramiento] de los animales en pie durante el transporte, son procedimientos técnicos esenciales para garantizar la #[b contención física] de la carga viva, prevenir su escape, evitar el movimiento peligroso dentro del vehículo y mitigar las lesiones causadas por la inercia, la agresión o el volcamiento de unidades.
+        p Los #[b métodos de aseguramiento] de los animales en pie durante el transporte, son procedimientos técnicos esenciales para garantizar la #[b contención física] de la carga viva, prevenir su escape, evitar el movimiento peligroso dentro del vehículo y mitigar las lesiones causadas por la inercia, la agresión o el volcamiento de unidades. 
         p.mb-0 Estos métodos se implementan principalmente mediante la #[b integridad estructural] del vehículo y el uso de #[b implementos de sujeción interna] para grupos y unidades, los cuales se escriben a continuación:
 
     AcordionA.color-secundario(tipo="b" clase-tarjeta="tarjeta BG03" data-aos="zoom-in")
@@ -584,22 +586,22 @@
         .col-lg-12.order-lg-1.order-2
           p Este primer método de aseguramiento consiste en garantizar que el vehículo en sí mismo sea una estructura segura y contundente, diseñada para contener a la especie transportada y se basa en lo siguiente:
         .col-lg-10.order-lg-1.order-2
-          .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+          .titulo-sexto.color-acento-contenido
             h5 Tabla 12.
             i Método de contención estructural
           .tabla-a.color-acento-contenido.mb-4
             table
               thead
                 tr
-                  th(data-aos="fade-down")(style= "background-color: #DAE4E3; width: 16.6%") Aspecto del método
-                  th(data-aos="fade-down")(style= "background-color: #DAE4E3; width: 16.6%") Requisito técnico
-                  th(data-aos="fade-down")(style= "background-color: #DAE4E3; width: 16.6%") Soporte documental (texto exacto)
+                  th(style= "background-color: #DAE4E3; width: 16.6%") Aspecto del método
+                  th(style= "background-color: #DAE4E3; width: 16.6%") Requisito técnico
+                  th(style= "background-color: #DAE4E3; width: 16.6%") Soporte documental (texto exacto)
               tbody
-                tr(data-aos="fade-right")
+                tr
                   td.text-center(style= "background-color: #FFFF")  #[b Integridad y resistencia]
                   td(style= "background-color: #FFFF") La unidad de transporte debe ser elaborada con #[b materiales resistentes al impacto] y mantenerse en #[b adecuado estado].
                   td(style= "background-color: #FFFF") "Ser #[b seguros], tener un #[b adecuado estado] y elaborados de #[b materiales resistentes al impacto..."]. Resolución 20223040006915 (Núm. 2.2.c.i).
-                tr(data-aos="fade-right")
+                tr
                   td.text-center(style= "background-color: #FFFF")  #[b Acabado interno]
                   td(style= "background-color: #FFFF") Las superficies internas deben ser #[b lisas y sin salientes ni bordes puntiagudos] que anulen la seguridad, ya que estos pueden causar lesiones graves.
                   td(style= "background-color: #FFFF") "Serán #[b lisas, seguras, sin salientes, ni bordes puntiagudos] que puedan causar lesiones...". Resolución 20223040006915 (Núm. 2.2.d.i).
@@ -608,22 +610,22 @@
         .col-lg-12.order-lg-1.order-2
           p La técnica de aseguramiento de grupos se logra mediante la instalación de #[b barreras o divisiones] que restringen el movimiento excesivo, previenen el hacinamiento y anulan la hostilidad entre grupos de diferente riesgo. En dicho método, se debe tener en cuenta:
         .col-lg-10.order-lg-1.order-2
-          .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+          .titulo-sexto.color-acento-contenido
             h5 Tabla 13.
             i Método de contención por barreas
           .tabla-a.color-acento-contenido.mb-4
             table
               thead
                 tr
-                  th(data-aos="fade-down")(style= "background-color: #DAE4E3; width: 16.6%") Aspecto del método
-                  th(data-aos="fade-down")(style= "background-color: #DAE4E3; width: 16.6%") Implemento y técnica de aseguramiento
-                  th(data-aos="fade-down")(style= "background-color: #DAE4E3; width: 16.6%") Soporte documental (texto exacto)
+                  th(style= "background-color: #DAE4E3; width: 16.6%") Aspecto del método
+                  th(style= "background-color: #DAE4E3; width: 16.6%") Implemento y técnica de aseguramiento
+                  th(style= "background-color: #DAE4E3; width: 16.6%") Soporte documental (texto exacto)
               tbody
-                tr(data-aos="fade-right")
+                tr
                   td.text-center(style= "background-color: #FFFF") #[b Uso de divisiones]
                   td(style= "background-color: #FFFF") La unidad de transporte debe contar con #[b divisiones o barreras fuertes] que permitan la separación y el aseguramiento de los grupos homogéneos.
                   td(style= "background-color: #FFFF") "Contar con #[b divisiones o barreras fuertes] que permitan la #[b separación de los animales."]. Manual de procedimiento (Núm. 2.2.c.iii).
-                tr(data-aos="fade-right")
+                tr
                   td.text-center(style= "background-color: #FFFF") #[b Fijación de grupos hostiles]
                   td(style= "background-color: #FFFF") El aseguramiento debe ser tal que se separen animales con potencial de daño, tales como #[b animales con y sin cuernos y machos sexualmente maduros de hembras], evitando que se muevan libremente y se agredan.
                   td(style= "background-color: #FFFF") "Separar por... #[b machos sexualmente maduros de hembras, animales con y sin cuernos], animales que puedan ser hostiles con otros...". Manual de procedimiento (Núm. 4.c.iii).
@@ -632,22 +634,22 @@
         .col-lg-12.order-lg-1.order-2
           p Para especies transportadas en contenedores, el método de aseguramiento se enfoca en la #[b fijación de la unidad] para evitar que se muevan o caigan durante el tránsito y se basan en la siguiente implementación:
         .col-lg-10.order-lg-1.order-2
-          .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+          .titulo-sexto.color-acento-contenido
             h5 Tabla 14.
             i Método de fijación de contenedores
           .tabla-a.color-acento-contenido.mb-4
             table
               thead
                 tr
-                  th(data-aos="fade-down")(style= "background-color: #DAE4E3; width: 16.6%") Aspecto del método
-                  th(data-aos="fade-down")(style= "background-color: #DAE4E3; width: 16.6%") Implemento y técnica de aseguramiento
-                  th(data-aos="fade-down")(style= "background-color: #DAE4E3; width: 16.6%") Soporte documental (texto exacto)
+                  th(style= "background-color: #DAE4E3; width: 16.6%") Aspecto del método
+                  th(style= "background-color: #DAE4E3; width: 16.6%") Implemento y técnica de aseguramiento
+                  th(style= "background-color: #DAE4E3; width: 16.6%") Soporte documental (texto exacto)
               tbody
-                tr(data-aos="fade-right")
+                tr
                   td.text-center(style= "background-color: #FFFF") #[b Fijación de cajas (aves)]
                   td(style= "background-color: #FFFF") Las cajas plásticas o de cartón deben estar #[b fijadas o dispuestas] dentro del vehículo de tal manera que se #[b evite su desplazamiento] o volcamiento durante la conducción.
                   td(style= "background-color: #FFFF") "Estar #[b fijados o dispuestos de manera tal, que se evite su desplazamiento y/o volcamiento"]. Resolución 20223040006915 (Núm. 2.2.c.v).
-                tr(data-aos="fade-right")
+                tr
                   td.text-center(style= "background-color: #FFFF") #[b Aseguramiento contra la inercia]
                   td(style= "background-color: #FFFF") Este método de aseguramiento previene que la #[b conducción brusca] (aceleración o frenado) desestabilice las pilas de contenedores, lo que podría causar aplastamiento o asfixia en la carga.
                   td(style= "background-color: #FFFF") Implícito en la necesidad de fijar y en el requisito de conducción suave. Resolución 20223040006915 (Núm. 4).
@@ -717,7 +719,7 @@
                   td(style= "background-color: #FFFF") La #[b obligación de permitir la inspección, vigilancia y control] por parte del #[b ICA] implica el uso de precintos como medida de aseguramiento posterior. Resolución 20223040006915 (Art. 4, Parágrafo).
                 tr(data-aos="fade-right")
                   td.text-center(style= "background-color: #FFFF") #[b Función de seguridad]
-                  td(style= "background-color: #FFFF") Asegurar que las puertas, rampas o compuertas de la unidad de transporte permanezcan 3[b cerradas] durante el trayecto, evitando el riesgo de escape de animales o la alteración de la carga.
+                  td(style= "background-color: #FFFF") Asegurar que las puertas, rampas o compuertas de la unidad de transporte permanezcan #[b cerradas] durante el trayecto, evitando el riesgo de escape de animales o la alteración de la carga.
                   td(style= "background-color: #FFFF") El vehículo debe ser #[b "seguro"] y estar diseñado para la #[b contención de animales vivos]. Resolución 20223040006915 (Núm. 2.2.c.i).
 
     .titulo.mb-4(data-aos="fade-left")
@@ -745,7 +747,7 @@
                 td(style= "background-color: #FFFF") Asegurar la #[b contención física] de la carga viva e impedir el acceso no autorizado a los animales en ruta.
               tr(data-aos="fade-right")
                 td.text-center(style= "background-color: #FFFF") #[b Precinto sanitario de contenedor]
-                td(style= "background-color: #FFFF") Utilizado para sellar las 3[b cajas o guacales] de transporte, especialmente en especies pequeñas (aves).
+                td(style= "background-color: #FFFF") Utilizado para sellar las #[b cajas o guacales] de transporte, especialmente en especies pequeñas (aves).
                 td(style= "background-color: #FFFF") Asegurar la #[b integridad del lote] y la #[b cantidad de animales] certificada en el guacal, previniendo el intercambio de animales.
               tr(data-aos="fade-right")
                 td.text-center(style= "background-color: #FFFF") #[b Precinto oficial (general)]
@@ -886,7 +888,7 @@
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Tabla 18.
           i Áreas del proceso de transporte
-        .tabla-a.color-acento-contenido.mb-4
+        .tabla-a.color-acento-contenido.mb-0
           table
             thead
               tr
@@ -1110,7 +1112,7 @@
                   td(style= "background-color: #FFFF") Implícito en la necesidad de usar rampas o plataformas que "facilite el embarque y desembarque".
 
     .titulo2.mb-4(data-aos="fade-left")
-      h5.mb-0 B. Implementos Auxiliares de Descargue
+      h5.mb-0 B. Implementos auxiliares de descargue
 
     p.mb-4 Los implementos auxiliares se usan para organizar el flujo y la separación en el punto de destino, teniendo en cuenta lo siguiente:
 
