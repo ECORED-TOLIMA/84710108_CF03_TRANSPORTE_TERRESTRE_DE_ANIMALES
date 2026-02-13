@@ -535,7 +535,7 @@
               thead
                 tr
                   th(style= "background-color: #DAE4E3; width: 16.6%") Técnica de manejo de emergencias
-                  th(style= "background-color: #DAE4E3; width: 16.6%") IRiesgo laboral asociado
+                  th(style= "background-color: #DAE4E3; width: 16.6%") Riesgo laboral asociado
                   th(style= "background-color: #DAE4E3; width: 16.6%") Soporte documental (base)
               tbody
                 tr
